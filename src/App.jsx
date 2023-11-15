@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-// import Navbar from './components/Nav';
-
 import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import Details from './Pages/Country/Details';
 import Root from './components/Layout/Root';
@@ -19,14 +17,10 @@ function App() {
     )
   );
 return (
-
-
   <RouterProvider router={router}>
 
   </RouterProvider>
 
-   
   );
 }
-
 export default App;
